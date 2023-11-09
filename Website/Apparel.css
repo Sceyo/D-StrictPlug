@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Robot',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Apparelcover.jpg);
+    background-position: center;
+    background-size: cover;
+     
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 250px;
+	height: auto;
+	padding: 30px 110px;
+    margin-top: -85px;
+    margin-right: 80px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,.navbar ul li a:hover{
+	background: navajowhite;
+	border-radius: 3px;
+}
+.row{
+    display:flex;
+    height: 88%;
+    align-items:center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: white;
+    font-size: 70px;
+   
+   /* margin-bottom: 60px;*/
+}
+p{
+    color: white;
+    font-size: 19px;
+    line-height: 30px;
+    font-style: oblique;
+   /* margin-bottom: 150px;*/
+}
+.card{
+    position: center;
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 25px 30px;
+    background-image: url(appl.jpg);
+    background-position: center;
+    background-size: cover;
+    color:black;
+    margin-top: 200px;
+}
+.card2{
+background-image: url(Appeal.jpg);
+    color: black;
+    margin-right: 90px;
+    margin-bottom: 60px;
+}
+.card:hover{
+    transform: translateY(-1rem);
+}
+.slides{
+    display: grid;
+}
+.slides{
+    display: flex;
+}
+.slide{
+     background-image: url(grive.jpg);
+    background-size: cover;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-left: -4rem;
+    box-shadow: 4px 4px 12px 2px rgba(black,1);
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 2px;
+    width: 100px;
+    height: 90px;
+}
+.slide:not(:first-child) {
+    margin-left: -5rem;
+  
+    
+}
+.slide:hover{
+    transform: translateY(-1rem);
+}
+.slide2{
+    background-image: url(kamisin.jpg);
+    color: black;
+}
+.slide3{
+    background-image: url(dbtk.jpg);
+}
+.slide4{
+    background-image: url(tgn.jpg);
+}
+.slide h2{
+    font-size: 2px;
+}
